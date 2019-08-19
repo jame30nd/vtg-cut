@@ -1,10 +1,8 @@
 import csv
 # import RPi.GPIO
-import pandas
 reader = csv.reader(
     open("csvfile.csv"), delimiter=";")
 included_cols = [22]
-# print(reader)
 count = 0
 content = []
 for row in reader:
